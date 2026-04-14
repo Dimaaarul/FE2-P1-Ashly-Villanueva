@@ -2,3 +2,10 @@ Etapa 1/Prompts 1:"Un sitio web muy basico utilizando html y css para presentar 
 Crear una base de la pagina y ver su estilo base 
 Evaluacion: Parcialmente llamativo
 
+etapa 2/Prompts 2:"El diseño sea moderno, con colores pasteles y limpios, el contenido tiene que estar distribuido por la pagina"
+Mejorar el diseño visual y distribuir mejor la informacion
+Evaluacion:Muy util 
+
+etapa 2/Prompts 3:"agreguemos una seccion para imagenes"
+Agregar imagenes a la pagina de referencia
+evaluacion: util 
