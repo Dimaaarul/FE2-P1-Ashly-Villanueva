@@ -1,0 +1,4 @@
+Etapa 1/Prompts 1:"Un sitio web muy basico utilizando html y css para presentar un nuevo telefono llamado "Iphone 20 Pro max" y con una pequeña descripcion del producto"
+Crear una base de la pagina y ver su estilo base 
+Evaluacion: Parcialmente llamativo
+
