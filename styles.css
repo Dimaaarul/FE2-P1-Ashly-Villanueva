@@ -214,6 +214,81 @@ body {
   line-height: 1.75;
 }
 
+.product-specs {
+  display: grid;
+  gap: 24px;
+  padding: 32px;
+  background: var(--surface);
+  border-radius: 32px;
+  box-shadow: 0 24px 60px rgba(84, 97, 121, 0.1);
+  border: 1px solid #f0e7e1;
+}
+
+.specs-header h2 {
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+}
+
+.specs-header p {
+  color: var(--muted);
+  line-height: 1.8;
+  max-width: 720px;
+}
+
+.specs-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 420px);
+  gap: 24px;
+}
+
+.spec-list {
+  background: var(--surface-soft);
+  border-radius: 28px;
+  padding: 24px;
+  border: 1px solid #f0e8e4;
+}
+
+.spec-list h3 {
+  margin-bottom: 18px;
+  font-size: 1.1rem;
+}
+
+.spec-list ul {
+  list-style: disc inside;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.spec-table-wrapper {
+  overflow-x: auto;
+}
+
+.specs-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.specs-table th,
+.specs-table td {
+  padding: 16px 18px;
+  text-align: left;
+  border-bottom: 1px solid #eef1f4;
+}
+
+.specs-table th {
+  width: 35%;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.specs-table td {
+  color: var(--muted);
+}
+
+.specs-table tr:last-child td {
+  border-bottom: none;
+}
+
 .gallery {
   display: grid;
   gap: 24px;
@@ -284,8 +359,26 @@ body {
 }
 
 @media (max-width: 980px) {
+  .page {
+    padding: 32px 0;
+  }
+
+  .site-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+
+  .site-nav {
+    justify-content: space-between;
+  }
+
   .hero {
     grid-template-columns: 1fr;
+  }
+
+  .hero-copy p {
+    max-width: 100%;
   }
 
   .details {
@@ -295,19 +388,73 @@ body {
   .features {
     grid-template-columns: 1fr;
   }
+
+  .product-specs {
+    padding: 24px;
+  }
+
+  .specs-card {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .hero {
+    padding: 28px 22px;
+  }
+
+  .page {
+    width: calc(100% - 32px);
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .hero-image {
+    max-width: 100%;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 540px) {
   .page {
-    padding: 24px 0;
+    padding: 20px 0;
   }
 
   .hero {
-    padding: 24px 20px;
+    padding: 20px 16px;
   }
 
+  .site-header {
+    padding: 0 8px;
+  }
+
+  .site-nav {
+    gap: 12px;
+  }
+
+  .details div,
   .feature-card,
-  .details div {
-    padding: 22px;
+  .gallery,
+  .site-footer {
+    padding: 20px;
+  }
+
+  .image-card {
+    min-height: 200px;
+    padding: 16px;
   }
 }

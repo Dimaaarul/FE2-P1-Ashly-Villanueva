@@ -6,6 +6,10 @@ etapa 2/Prompts 2:"El diseño sea moderno, con colores pasteles y limpios, el co
 Mejorar el diseño visual y distribuir mejor la informacion
 Evaluacion:Muy util 
 
-etapa 2/Prompts 3:"agreguemos una seccion para imagenes"
+etapa 3/Prompts 3:"agreguemos una seccion para imagenes"
 Agregar imagenes a la pagina de referencia
 evaluacion: util 
+
+etapa 4/promts 4:"El sitio web debe ser adaptable a distintos tamaños de pantalla evitando errores de distribuicion del contenido"
+adaptar la pagina a distintos tamaños de pantalla
+evaluacion: Muy util 
